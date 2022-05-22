@@ -153,6 +153,11 @@ ul{
 }
 
 /*items*/
+
+.main-info{
+   height: 769px;
+}
+
 .items{
    justify-content: center;
    align-items: center;
@@ -188,6 +193,7 @@ ul{
 
 /*work*/
 .work{
+   height: 386px;
    justify-content: center;
    align-items: center;
    width: 100%;
@@ -212,6 +218,7 @@ ul{
 /*team*/
 
 .team{
+   gap: 50px;
    height: 648px;
    width: 100%;
    display: flex;
@@ -222,6 +229,7 @@ ul{
 }
 
 .title-team{
+   margin: 0px;
    font-size: 36px;
    line-height: 42px;
    letter-spacing: 0.03em;
@@ -229,6 +237,7 @@ ul{
 }
 
 .list-team{
+   margin: 0px;
    display: flex;
    flex-direction: row;
    gap: 30px;
@@ -259,11 +268,20 @@ ul{
 
 /*footer*/
 .footer{
-   gap: 20px;
+   height: 252px;
+   justify-content: center;
+   gap: 60px;
    width: 100%;
    display: flex;
    flex-direction: column;
    background: #2F303A;
+}
+
+.info-footer{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   margin-left: 215px;
 }
 
 .logo-footer{
@@ -317,3 +335,4 @@ ul{
 .number-footer:hover{
    color: #2196F3;
 }
+
