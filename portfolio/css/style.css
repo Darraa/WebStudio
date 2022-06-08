@@ -9,6 +9,10 @@ ul{
    list-style: none;
 }
 
+.link{
+   text-decoration: none;
+}
+
 /*header*/
 .page-header{
    gap: 331px;
